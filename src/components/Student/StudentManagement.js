@@ -18,7 +18,7 @@ import DocumentViewer from './DocumentViewer';
 const Container = styled.div`
   display: grid;
   gap: 2rem;
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  background: #ffffff;
   min-height: 100vh;
   padding: 2rem;
   margin: -2rem;
@@ -31,11 +31,10 @@ const Header = styled.div`
   margin-bottom: 2rem;
   
   h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a202c;
     margin: 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 `;
 
@@ -66,7 +65,7 @@ const Button = styled.button`
   }
   
   &.secondary {
-    background: white;
+    background: #ffffff;
     color: #4a5568;
     border: 1px solid #e2e8f0;
     
@@ -112,7 +111,7 @@ const FilterSelect = styled.select`
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   font-size: 1rem;
-  background: white;
+  background: #ffffff;
   
   &:focus {
     outline: none;
@@ -128,7 +127,7 @@ const StatsGrid = styled.div`
 `;
 
 const StatCard = styled.div`
-  background: white;
+  background: #ffffff;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -166,7 +165,7 @@ const StatCard = styled.div`
 `;
 
 const TableContainer = styled.div`
-  background: white;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #e2e8f0;
@@ -184,7 +183,7 @@ const Table = styled.table`
   }
   
   th {
-    background: #f8fafc;
+    background: #f7fafc;
     font-weight: 600;
     color: #4a5568;
     font-size: 0.875rem;
@@ -197,7 +196,7 @@ const Table = styled.table`
   }
   
   tr:hover {
-    background: #f8fafc;
+    background: #f7fafc;
   }
 `;
 
