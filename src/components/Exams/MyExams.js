@@ -23,7 +23,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   display: grid;
   gap: 2rem;
-  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  background: #ffffff;
   min-height: 100vh;
   padding: 2rem;
   margin: -2rem;
@@ -31,15 +31,14 @@ const Container = styled.div`
 
 const Header = styled.div`
   h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a202c;
     margin-bottom: 0.5rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   p {
-    color: rgba(255, 255, 255, 0.9);
+    color: #718096;
     font-size: 1.1rem;
   }
 `;
@@ -52,7 +51,7 @@ const StatsGrid = styled.div`
 `;
 
 const StatCard = styled.div`
-  background: white;
+  background: #ffffff;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -68,11 +67,11 @@ const StatCard = styled.div`
       width: 40px;
       height: 40px;
       border-radius: 8px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: #f7fafc;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
+      color: #4a5568;
     }
   }
   
@@ -96,7 +95,7 @@ const ExamGrid = styled.div`
 `;
 
 const ExamCard = styled.div`
-  background: white;
+  background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #e2e8f0;
